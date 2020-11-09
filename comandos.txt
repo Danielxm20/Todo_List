@@ -1,0 +1,9 @@
+. venv/Scripts/activate  # activa el entorno virtual
+flask run # iniciar flask
+export FLASK_APP=nombre.py # aplicacion flask 
+export FLASK_ENV=development  # colocar el modo desarrollo este ayuda a ver errores en la ejecucion
+export FLASK_DATABASE='nobre db'
+export FLASK_DATABASE_HOST='localhost'
+export FLASK_DATABASE_PASSWORD='contraseña usuario'
+export FLASK_DATABASE_USER='usuario'
+flask init-db # iniciar la base de datos
